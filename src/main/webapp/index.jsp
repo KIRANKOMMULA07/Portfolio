@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Ubuntu Mono', monospace;
-            background-color: #2d2d2d;
+            background-color: wheat;
             color: #ffffff;
             margin: 0;
             display: flex;
