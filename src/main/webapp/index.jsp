@@ -1,50 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.Date" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Code Preview</title>
-    <style>
-        body {
-            font-family: 'Ubuntu Mono', monospace;
-            background-color: wheat;
-            color: #ffffff;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        #terminal {
-            background-color: black;
-            color: #ffffff;
-            border: 2px solid #ffffff;
-            border-radius: 5px;
-            padding: 10px;
-            width: 80%;
-            max-width: 800px;
-        }
-
-        .prompt {
-            color: #8ae234; /* Green color for prompts */
-        }
-
-        .code {
-            color: #ffffff;
-        }
-    </style>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
-<div id="terminal">
-    <span class="prompt">$ </span>
-    <span class="code">public class HelloWorld {</span><br>
-    <span class="code">    public static void main(String[] args) {</span><br>
-    <span class="code">        System.out.println("Hello, World!");</span><br>
-    <span class="code">    }</span><br>
-    <span class="code">}</span><br>
-</div>
-
+    <div class="border-container">
+        <div class="content">
+            <!-- Your content here -->
+            <h1>Welcome to My Website</h1>
+            <p>This is a sample home page.</p>
+            <p>The current date and time is: <%= new Date() %></p>
+        </div>
+    </div>
 </body>
 </html>
