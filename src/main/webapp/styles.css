@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #111; /* Dark gray */
+    background-color: #511; /* Dark gray */
 }
 
 .border-container {
@@ -11,7 +11,7 @@ body {
     right: 25px; /* 1 inch from the right */
     bottom: 25px; /* 1 inch from the bottom */
     border: 1px solid #999; /* Gray border */
-    padding: 10px; /* Padding inside the border */
+    padding: 20px; /* Padding inside the border */
     overflow: auto; /* Enable scrolling if content exceeds border */
 }
 
@@ -20,6 +20,13 @@ body {
     margin: 0;
 }
 h1{
-    padding-top:-100px;
+    padding-top: 100px;
+    font-size: 100px;
+}
+.navigator{
+    background-color: red;
+    position: absolute;
+    left: 30px;
+    color:aqua;
 }
 

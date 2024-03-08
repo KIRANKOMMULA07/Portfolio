@@ -9,9 +9,19 @@
     <div class="border-container">
         <div class="content">
             <!-- Your content here -->
-            <h1>Welcome to My Website</h1>
-            <p>This is a sample home page.</p>
-            <p>The current date and time is: <%= new Date() %></p>
+            <p>Welcome to My Website</p>
+            <p>Developer</p>
+        </div>
+
+        <div class=""navigator>
+            <ul>
+                <li><a href="home.jsp">home</a></li>
+                <li><a href="home.jsp">project</a></li>
+                <li><a href="home.jsp">skills</a></li>
+                <li><a href="home.jsp">contact</a></li>
+            </ul>
+
+        
         </div>
     </div>
 </body>
