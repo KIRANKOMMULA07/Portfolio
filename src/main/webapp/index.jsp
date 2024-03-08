@@ -9,7 +9,6 @@
     <div class="border-container">
         <div class="Identificaton">
             <!-- Your content here -->
-<<<<<<< HEAD
             <p>Welcome to My Website</p>
             <p>Developer</p>
         </div>
@@ -23,12 +22,9 @@
             </ul>
 
         
-=======
-            <h1>Kiran Kommula</h1>
-            <p class="label">Software Developer</p>
-            <p>The current date and time is: <%= new Date() %></p>
->>>>>>> 34ff9088d2c3ef1ddc841f9b5183a70e1e2ab610
         </div>
     </div>
+    <script src="//localhost:35729/livereload.js"></script>
+
 </body>
 </html>

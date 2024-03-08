@@ -1,12 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    background-color: #511; /* Dark gray */
-=======
-    font-family: "Neue Montreal";
     background-color: #111; /* Dark gray */
->>>>>>> 34ff9088d2c3ef1ddc841f9b5183a70e1e2ab610
 }
 
 .border-container {
@@ -25,7 +20,6 @@ body {
     margin: 0;
 }
 h1{
-<<<<<<< HEAD
     padding-top: 100px;
     font-size: 100px;
 }
@@ -33,21 +27,5 @@ h1{
     background-color: red;
     position: absolute;
     left: 30px;
-    color:aqua;
-=======
-    display: block;
-    font-size: 32px;
-    margin-block-start: 24px;
-    margin-block-end: 24px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 200;
-    padding-top:-100px;
-    margin-bottom: 20px;
-}
-label{
-    margin-top: 0px;
-    font-weight: 400
->>>>>>> 34ff9088d2c3ef1ddc841f9b5183a70e1e2ab610
 }
 
