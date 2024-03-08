@@ -19,13 +19,27 @@ body {
     color: #FFF;
     margin: 0;
 }
+p{
+    color: white;
+}
 h1{
-    padding-top: 100px;
-    font-size: 100px;
+    color: white;
 }
-.navigator{
-    background-color: red;
+ul{
+    list-style: none;
     position: absolute;
-    left: 30px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+    
 }
+ul li {
+    margin-bottom: 5px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
 
