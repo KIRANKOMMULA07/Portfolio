@@ -75,7 +75,7 @@ body {
 
 #home-section,#projects-section
 ,#info-section, #skills-section,#contact-section {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* height: 100px;
     width: 100px; */
     position: absolute;
@@ -83,18 +83,23 @@ body {
     right: 0;
     margin-bottom: 20px;
     margin-right: 20px;
+    color: white;
     
 }
 #home-section{
-    height: 300px;
-    width: 100px;
+    height: 285px;
+    width: 120px;
+    overflow: auto;
 }
-/* Existing CSS styles */
+#home-section p{
+    font-size: 15px;
+    font-weight: 900px;
+}
 
 .sidebar li a .dot {
     width: 8px; /* Adjust the size of the dot */
     height: 8px;
-    background-color: white; /* Color of the dot */
+    background-color: greenyellow; /* Color of the dot */
     border-radius: 50%; /* Make the dot circular */
     display: none; /* Initially hide the dot */
 }

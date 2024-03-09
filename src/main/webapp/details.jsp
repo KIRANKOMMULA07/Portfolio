@@ -4,8 +4,7 @@
     if (section != null) {
         if (section.equals("home")) {
 %>          <div id="home-section">
-                <h2>Welcome to Home</h2>
-                <p>This is the home section.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, ab ducimus. Odio rem vel aliquid corporis hic provident, nobis nostrum! Reprehenderit corrupti dolore quam assumenda veniam ipsam tempora laboriosam facere..</p>
             </div>
 <%
         } else if (section.equals("projects")) {
