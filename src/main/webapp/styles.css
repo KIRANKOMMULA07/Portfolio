@@ -27,7 +27,8 @@ body {
     height: auto;
     width: 130px;
     /* background-color: white; */
-    
+    list-style-type: disc; /* Set list-style-type to display bullet points */
+
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -72,10 +73,11 @@ body {
 
 }
 
-.content {
+#home-section,#projects-section
+,#info-section, #skills-section,#contact-section {
     background-color: blueviolet;
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
     position: absolute;
     bottom: 0;
     right: 0;
@@ -83,5 +85,17 @@ body {
     margin-right: 20px;
     
 }
+#home-section{
+    height: 300px;
+    width: 100px;
+}
+/* Existing CSS styles */
 
+.sidebar li a .dot {
+    width: 8px; /* Adjust the size of the dot */
+    height: 8px;
+    background-color: white; /* Color of the dot */
+    border-radius: 50%; /* Make the dot circular */
+    display: none; /* Initially hide the dot */
+}
 
