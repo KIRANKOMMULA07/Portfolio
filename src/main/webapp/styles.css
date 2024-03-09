@@ -6,39 +6,81 @@ body {
 
 .border-container {
     position: fixed;
-    top: 25px; /* 1 inch from the top */
-    left: 25px; /* 1 inch from the left */
+    top: 21px; /* 1 inch from the top */
+    left: 22px; /* 1 inch from the left */
     right: 25px; /* 1 inch from the right */
     bottom: 25px; /* 1 inch from the bottom */
-    border: 1px solid #999; /* Gray border */
+    border: 1.4px solid #999; /* Gray border */
     padding: 20px; /* Padding inside the border */
+    padding-top: 11px;
     overflow: auto; /* Enable scrolling if content exceeds border */
+
+}
+.right-container{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+.sidebar{
+    height: auto;
+    width: 130px;
+    /* background-color: white; */
+    
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    margin-top: 30px;
+   
+    
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 500px;
+    color: white;
+    /* background-color: yellowgreen;     */
+
+}
+
+.title h1{
+    margin: 0;
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
+    font-weight: 100;
+    
+
+}
+.title p {
+    padding-left: 4px;
+    margin: 0; /* Adjust spacing between elements */
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+    padding: 3px 0;
+}
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+
+
 }
 
 .content {
-    color: #FFF;
-    margin: 0;
-}
-p{
-    color: white;
-}
-h1{
-    color: white;
-}
-ul{
-    list-style: none;
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
     position: absolute;
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 5px;
-    
-}
-ul li {
-    margin-bottom: 5px;
-}
-ul li a {
-    color: white;
-    text-decoration: none;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
     
 }
 

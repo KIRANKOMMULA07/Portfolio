@@ -7,23 +7,36 @@
 </head>
 <body>
     <div class="border-container">
-        <div class="Identificaton">
-            <h1>Kiran kommula</h1>
-            <p>developer</p>
+        <div class="right-container">
+            <div class="title">
+                <h1>Kiran Kommula</h1>
+                <p>Developer</p>
+            </div>
+
+            <div class="sidebar">
+                <li><a href="#" onclick="showDetails('home')">Home</a></li>
+                <li><a href="#" onclick="showDetails('projects')">Projects</a></li>
+                <li><a href="#" onclick="showDetails('skills')">Skills</a></li>
+                <li><a href="#" onclick="showDetails('info')">Info</a></li>
+                <li><a href="#" onclick="showDetails('contact')">Contact</a></li>
+                
+            </div>
         </div>
-
-        <div class=""navigator>
-            <ul>
-                <li><a href="home.jsp">home</a></li>
-                <li><a href="home.jsp">project</a></li>
-                <li><a href="home.jsp">skills</a></li>
-                <li><a href="home.jsp">contact</a></li>
-            </ul>
-
-        
+        <div class="content" id="content">
+            <!-- Dynamic content will be loaded here -->
         </div>
     </div>
-    <script src="//localhost:35729/livereload.js"></script>
-
+    <script>
+        function showDetails(section) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("content").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "details.jsp?section=" + section, true);
+            xhttp.send();
+        }
+    </script>
 </body>
 </html>
