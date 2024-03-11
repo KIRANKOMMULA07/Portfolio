@@ -16,43 +16,41 @@
                 <li>Project 3</li>
                 <li>Pro Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur nemo adipisci eos aliquid inventore, quam doloremque veniam, provident facilis reiciendis earum quaerat vitae, aliquam assumenda possimus recusandae ducimus dolorem! 3</li>
                 <li>Project Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate odio rerum, pariatur dolorum non laudantium enim repellendus dolore earum sed perspiciatis, impedit facilis magni maiores consequuntur id, placeat dolor fuga! 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet labore iusto enim est dolorum earum. Similique perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eligendi esse? 3</li>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing eh2t. Repudiandae amet labore iusto enim est dolorum earum. Simih2que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh2gendi esse? 3</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing eh2t. Repudiandae amet labore iusto enim est dolorum earum. Simih2que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh2gendi esse? 3</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing eh2t. Repudiandae amet labore iusto enim est dolorum earum. Simih2que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh2gendi esse? 3</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing eh2t. Repudiandae amet labore iusto enim est dolorum earum. Simih2que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh2gendi esse? 3</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing eh2t. Repudiandae amet labore iusto enim est dolorum earum. Simih2que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh2gendi esse? 3</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing eh2t. Repudiandae amet labore iusto enim est dolorum earum. Simih2que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh2gendi esse? 3</h2>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing eh2t. Repudiandae amet labore iusto enim est dolorum earum. Simih2que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh2gendi esse? 3</h2>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Repudiandae amet labore iusto enim est dolorum earum. Simih1que perspiciatis, possimus doloremque debitis provident accusamus architecto saepe. Maiores voluptate quam eh1gendi esse? 3</h1>
             </div>
             <%
         } else if (section.equals("skills")) {
 %>
             
             <div id="skills-section">
-                <h2>Skills</h2>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
+                <p>System.out.println{"Hello world};</p>
+                <p>pring("Hello world")</p>
+                <p>SELECT * FROM helloworld</p>
             </div>
 <%
         } else if (section.equals("info")) {
 %>
            
             <div id="info-section">
-                <h2>info</h2>
-                <li>info 1</li>
-                <li>info 2</li>
-                <li>info 3</li>
+                <li><a href="#">Facebook</a>ff</li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
             </div>
 <%
         } else if (section.equals("contact")) {

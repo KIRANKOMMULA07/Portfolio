@@ -29,7 +29,6 @@ body {
     height: auto;
     width: 130px;
     /* background-color: white; */
-    list-style-type: disc; /* Set list-style-type to display bullet points */
 
     list-style: none;
     display: flex;
@@ -46,6 +45,12 @@ body {
     width: 500px;
     color: white;
     /* background-color: yellowgreen;     */
+
+    /*this is to make the text unselectable/uncopyable*/
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
 
 }
 
@@ -72,15 +77,21 @@ body {
     font-size: 0.85rem;
     font-weight: 700;
     transition: color 0.3s ease;
+
+    /*this is to make the text unselectable/uncopyable*/
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
 }
 
 /* text sliding animation */
 .sidebar li a:hover{
-    color: rgba(255, 255, 255, 0.2); /* Dim white color on hover */
+    color: rgba(255, 255, 255, 0.435); /* Dim white color on hover */
 }
 
 .sidebar li a.animate-out {
-    animation: slideOut 6s forwards;
+    animation: slideOut 16s forwards;
 }
 
 @keyframes slideOut {
@@ -94,6 +105,16 @@ body {
     }
 }
 
+.sidebar li a .dot {
+    width: 8px; /* Adjust the size of the dot */
+    height: 8px;
+    background-color: white; /* Color of the dot */
+    border-radius: 50%; /* Make the dot circular */
+    display: none; /* Initially hide the dot */
+}
+
+/*Section wise styling of sidebar lists */
+
 #home-section,#projects-section
 ,#info-section, #skills-section,#contact-section {
     /* background-color: blueviolet; */
@@ -106,6 +127,8 @@ body {
     color: white;
     
 }
+
+/*Home-section*/
 #home-section{
     height: 285px;
     width: 120px;
@@ -118,13 +141,8 @@ body {
 
 }
 
-.sidebar li a .dot {
-    width: 8px; /* Adjust the size of the dot */
-    height: 8px;
-    background-color: white; /* Color of the dot */
-    border-radius: 50%; /* Make the dot circular */
-    display: none; /* Initially hide the dot */
-}
+
+/*projects-section*/
 #projects-section{
 
     height: 100%;
@@ -132,3 +150,33 @@ body {
     color: white;
     text-align: right;
 }
+
+/*skills-section*/
+#skills-section{
+    height: 300px;
+    width: 300px;
+    background-color: lightslategrey;
+    margin-bottom: 20px;
+}
+
+
+#info-section{
+    height: 110px; /*50px*/
+    width: 110px;/*60px*/
+    background-color: lightslategray;
+    bottom: 40%;
+    right: 37.5%;
+    padding: 13px;
+}
+#info-section li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+#info-section li {
+    list-style: none;
+    margin: 0;
+}
+
