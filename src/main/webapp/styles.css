@@ -5,7 +5,7 @@ body {
 }
 
 .border-container {
-    position: fixed;
+    position: fixed; /* previously fixed*/
     top: 21px; /* 1 inch from the top */
     left: 22px; /* 1 inch from the left */
     right: 25px; /* 1 inch from the right */
@@ -18,10 +18,12 @@ body {
 }
 .right-container{
     /* background-color: blue; */
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 0;
+    
 }
 .sidebar{
     height: auto;
@@ -34,7 +36,7 @@ body {
     flex-direction: column;
     padding-top: 8px;
     margin-top: 30px;
-   
+    
     
 }
 .title {
@@ -69,8 +71,27 @@ body {
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: 700;
+    transition: color 0.3s ease;
+}
 
+/* text sliding animation */
+.sidebar li a:hover{
+    color: rgba(255, 255, 255, 0.2); /* Dim white color on hover */
+}
 
+.sidebar li a.animate-out {
+    animation: slideOut 6s forwards;
+}
+
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
 }
 
 #home-section,#projects-section
@@ -81,7 +102,6 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-bottom: 20px;
     margin-right: 20px;
     color: white;
     
@@ -94,13 +114,21 @@ body {
 #home-section p{
     font-size: 15px;
     font-weight: 900px;
+    margin-bottom: 20px;
+
 }
 
 .sidebar li a .dot {
     width: 8px; /* Adjust the size of the dot */
     height: 8px;
-    background-color: greenyellow; /* Color of the dot */
+    background-color: white; /* Color of the dot */
     border-radius: 50%; /* Make the dot circular */
     display: none; /* Initially hide the dot */
 }
+#projects-section{
 
+    height: 100%;
+    width: 65%;
+    color: white;
+    text-align: right;
+}
