@@ -23,33 +23,28 @@
 %>
             
             <div id="skills-section">
-                <p>Programming Languages:
-                    Java: Proficient in Java programming, with experience in developing robust and scalable applications.
-                    SQL: Strong understanding of relational database concepts and proficient in writing complex SQL queries for data manipulation and retrieval.
-                    Web Development:
-                    HTML & CSS: Skilled in creating responsive and visually appealing web pages using HTML5 and CSS3.
-                    </p>
-                <p>System Administration:
-                    Linux Administration: Experienced in Linux system administration tasks, including server setup, maintenance, and troubleshooting.
-                    Additional Skills:
-                    Version Control: Proficient in using Git for version control and collaborative development.
-                    Problem Solving: Strong problem-solving skills with the ability to analyze complex problems and devise effective solutions.
-                    Excel: Proficient in Microsoft Excel for data analysis, visualization, and reporting.
-                    </p>
-                <p>Tools & Technologies:
-                    IDEs: Familiar with IntelliJ IDEA and Eclipse for Java development.
-                    Database Management: Experienced in using MySQL and PostgreSQL for database management.
-                    Web Technologies: Knowledgeable in JavaScript and jQuery for dynamic web content.</p>
+                <!-- <p>Programming Languages: </p> -->
+                <p>java Python SQL Linux Github Windows Docker</p>
             </div>
 <%
         } else if (section.equals("info")) {
 %>
-           
+        <div>
             <div id="info-section">
                 <li><a href="https://www.facebook.com/kiran.ji.3910">Facebook</a></li>
                 <li><a href="https://x.com/Kiran_kommula07?t=5DtzMMQ8raHf7JvOPNUhWQ&s=08">Twitter</a></li>
                 <li><a href="https://www.instagram.com/kiran_kommula.007?igsh=MTY3MDh1dzJoMG95MQ==">Instagram</a></li>
             </div>
+            <div id="skills-section">
+                <p>Programming Languages: </p>
+                <p>java Python SQL Linux Github Windows Docker</p>
+            </div>
+
+
+        </div>
+                
+        
+            
 <%
         } else if (section.equals("contact")) {
 %>          <div id="contact-section">

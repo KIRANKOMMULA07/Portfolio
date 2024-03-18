@@ -76,7 +76,7 @@ body {
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: 700;
-    transition: color 0.3s ease;
+    transition: color 0.1s ease;
 
     /*this is to make the text unselectable/uncopyable*/
     -webkit-user-select: none; /* Safari */
@@ -91,7 +91,7 @@ body {
 }
 
 .sidebar li a.animate-out {
-    animation: slideOut 16s forwards;
+    animation: slideOut 0s forwards;
 }
 
 @keyframes slideOut {
@@ -159,8 +159,6 @@ body {
     color: white;
     font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
     font-weight: 100;
-
-    /* Add any other styles you want */
 }
 #projects-section li a:hover{
     color: rgba(255, 255, 255, 0.335); /* Dim white color on hover */
@@ -176,21 +174,23 @@ body {
 
 
 /*skills-section*/
+
+
 #skills-section{
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: auto;
+    bottom: 60%;
     background-color: lightslategrey;
     margin-bottom: 20px;
 }
 
 
 #info-section{
-    height: 110px; /*50px*/
+    height: 90px; /*50px*/
     width: 110px;/*60px*/
-    background-color: lightslategray;
-    bottom: 40%;
-    right: 37.5%;
-    padding: 13px;
+    bottom: 30%;
+    right: 57.5%;
+    padding-top: 23px;
 }
 #info-section li a{
     color: white;
@@ -198,6 +198,7 @@ body {
     font-size: 0.85rem;
     font-weight: 700;
     transition: color 0.3s ease;
+    
 }
 #info-section li {
     list-style: none;

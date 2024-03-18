@@ -15,7 +15,7 @@
             <div class="sidebar">
                 <li onclick="showDetails('home', this)"><a href="#"><span class="dot"></span><span class="link-text">Home</span></a></li>
                 <li onclick="showDetails('projects', this)"><a href="#"><span class="dot"></span><span class="link-text">Projects</span></a></li>
-                <li onclick="showDetails('skills', this)"><a href="#"><span class="dot"></span><span class="link-text">Skills</span></a></li>
+                <!-- <li onclick="showDetails('skills', this)"><a href="#"><span class="dot"></span><span class="link-text">Skills</span></a></li> -->
                 <li onclick="showDetails('info', this)"><a href="#"><span class="dot"></span><span class="link-text">Info</span></a></li>
                 <li onclick="showDetails('contact', this)"><a href="#"><span class="dot"></span><span class="link-text">Contact</span></a></li>
             </div>
