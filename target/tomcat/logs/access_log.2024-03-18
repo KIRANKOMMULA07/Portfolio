@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:01:40 +0000] "GET /portfolio HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:02:05 +0000] "GET / HTTP/1.1" 404 - http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:02:12 +0000] "GET /portfolio HTTP/1.1" 404 - http-bio-8080-exec-9 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:03:38 +0000] "GET /portfoliojsp HTTP/1.1" 302 - http-bio-8080-exec-9 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:03:39 +0000] "GET /portfoliojsp/ HTTP/1.1" 200 3200 http-bio-8080-exec-11 667
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:03:40 +0000] "GET /portfoliojsp/styles.css HTTP/1.1" 200 3721 http-bio-8080-exec-7 2
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:03:40 +0000] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:05:28 +0000] "GET /portfoliojsp/ HTTP/1.1" 200 3200 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:05:29 +0000] "GET /portfoliojsp/ HTTP/1.1" 200 3200 http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:05:31 +0000] "GET /portfoliojsp/details.jsp?section=projects HTTP/1.1" 200 3202 http-bio-8080-exec-9 79
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:05:52 +0000] "GET /portfoliojsp/details.jsp?section=skills HTTP/1.1" 200 1538 http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:05:58 +0000] "GET /portfoliojsp/details.jsp?section=info HTTP/1.1" 200 382 http-bio-8080-exec-2 1
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:05:59 +0000] "GET /portfoliojsp/details.jsp?section=contact HTTP/1.1" 200 136 http-bio-8080-exec-1 1
+0:0:0:0:0:0:0:1 - - [18/Mar/2024:11:06:06 +0000] "GET /portfoliojsp/details.jsp?section=info HTTP/1.1" 200 382 http-bio-8080-exec-3 1

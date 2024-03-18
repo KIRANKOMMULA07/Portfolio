@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Dark gray */
+}
+
+.border-container {
+    position: fixed; /* previously fixed*/
+    top: 21px; /* 1 inch from the top */
+    left: 22px; /* 1 inch from the left */
+    right: 25px; /* 1 inch from the right */
+    bottom: 25px; /* 1 inch from the bottom */
+    border: 1.4px solid #999; /* Gray border */
+    padding: 20px; /* Padding inside the border */
+    padding-top: 11px;
+    overflow: auto; /* Enable scrolling if content exceeds border */
+
+}
+.right-container{
+    /* background-color: blue; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0;
+    
+}
+.sidebar{
+    height: auto;
+    width: 130px;
+    /* background-color: white; */
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    margin-top: 30px;
+    
+    
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 500px;
+    color: white;
+    /* background-color: yellowgreen;     */
+
+    /*this is to make the text unselectable/uncopyable*/
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+
+}
+
+.title h1{
+    margin: 0;
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
+    font-weight: 100;
+    
+
+}
+.title p {
+    padding-left: 4px;
+    margin: 0; /* Adjust spacing between elements */
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+    padding: 3px 0;
+}
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: color 0.3s ease;
+
+    /*this is to make the text unselectable/uncopyable*/
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+/* text sliding animation */
+.sidebar li a:hover{
+    color: rgba(255, 255, 255, 0.435); /* Dim white color on hover */
+}
+
+.sidebar li a.animate-out {
+    animation: slideOut 16s forwards;
+}
+
+@keyframes slideOut {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+.sidebar li a .dot {
+    width: 8px; /* Adjust the size of the dot */
+    height: 8px;
+    background-color: white; /* Color of the dot */
+    border-radius: 50%; /* Make the dot circular */
+    display: none; /* Initially hide the dot */
+}
+
+/*Section wise styling of sidebar lists */
+
+#home-section,#projects-section
+,#info-section, #skills-section,#contact-section {
+    /* background-color: blueviolet; */
+    /* height: 100px;
+    width: 100px; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    color: white;
+    
+}
+
+/*Home-section*/
+#home-section{
+    height: 285px;
+    width: 120px;
+    overflow: auto;
+}
+#home-section p{
+    font-size: 15px;
+    font-weight: 900px;
+    margin-bottom: 20px;
+
+}
+
+
+/*projects-section*/
+#projects-section{
+
+    height: 100%;
+    width: 65%;
+    color: white;
+    text-align: right;
+}
+
+/*skills-section*/
+#skills-section{
+    height: 300px;
+    width: 300px;
+    background-color: lightslategrey;
+    margin-bottom: 20px;
+}
+
+
+#info-section{
+    height: 110px; /*50px*/
+    width: 110px;/*60px*/
+    background-color: lightslategray;
+    bottom: 40%;
+    right: 37.5%;
+    padding: 13px;
+}
+#info-section li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+#info-section li {
+    list-style: none;
+    margin: 0;
+}
+
