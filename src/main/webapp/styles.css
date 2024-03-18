@@ -200,7 +200,7 @@ body {
 }
 #skills-nametag {
     position: absolute; /* Add position absolute */
-    left: -20px; /* Adjust the position to the left */
+    left: -10px; /* Adjust the position to the left */
     top: 42%; /* Center vertically */
     transform: translateY(-50%); /* Center vertically */
 }
