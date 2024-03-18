@@ -11,16 +11,13 @@
 %>
             <div id="projects-section">
                 <h2>Projects</h2>
-                <li>Innovative research in engineering, applied science and management - IC-IREASM-2023</li>
-                <li>Portfolio using JSP</li>
-                <li>Hand detection using opencv in python programming</li>
-                <li>Dual tone multifrequency irrigation system using arduino</li>
-                <h1>As part of the 2nd International Conference on Innovative Research in Engineering, Applied Science, and Management (IC-IREASM-2023), hosted by SREE DATTHA INSTITUTIONS, our team spearheaded an ambitious project focused on revolutionizing home security through cutting-edge Internet of Things (IoT) technology.
-                Our innovative home security system integrates state-of-the-art sensors, real-time data analytics, and remote monitoring capabilities to ensure comprehensive protection for households. By leveraging IoT devices such as motion sensors, door/window sensors, and surveillance cameras, we created a networked ecosystem capable of detecting and responding to potential security threats.</h1>
-                <h1>My JSP-based portfolio project features a welcoming Home section, introducing my professional identity. The Projects section showcases my works with detailed project pages and dynamic categorization. The Skills section visually represents my technical skills, while the Info section provides a comprehensive overview of my professional background. The Contact section offers multiple ways to connect, including email and links to social media. With a responsive design, search engine optimization, and occasional updates, the portfolio serves as a dynamic, visually appealing representation of my skills, projects, and professional journey for potential collaborators or employers.</h1>
-                <h1>The Real-time Hand Detection project in Python employs OpenCV for instantaneous, multi-hand tracking in live video streams. Leveraging computer vision, it enables gesture recognition, making it ideal for interactive applications, gaming, and human-computer interaction projects. The user-friendly interface, cross-platform compatibility, and open-source nature facilitate customization and collaboration. With a focus on resource efficiency, this project serves as a versatile foundation for creating dynamic, gesture-driven interactions, enhancing user experiences across diverse technological landscapes.</h1>
-                <h1>The DTMF-Controlled Irrigation System, powered by Arduino, enables remote irrigation management through mobile phone calls. When the system receives a call, it automatically answers after a 3-second delay. Users can then input an even number to activate the irrigation pump, ensuring optimal watering conditions. Conversely, entering an odd number deactivates the pump, conserving water resources. This intuitive and cost-effective solution leverages Dual Tone Multifrequency (DTMF) technology for seamless control. The project empowers farmers with a user-friendly, mobile-driven interface, providing efficient irrigation control and contributing to sustainable agricultural practices.</h1>
-            </div>
+                <li><a>Feb 2023 / Engineering / Research <span class="project-name-tag-big">  IC - IREASM - 2023</span></a></li>
+                <li><a>Jan 2024 / Portfolio / Webapp <span class="project-name-tag-big">  a Portfolio </span></a></li>
+                <li><a>Dec 2023 / Opencv / Detection <span class="project-name-tag-big">  Hand detection </span></a></li>
+                <li><a>Apr 2019 / Engineering / Project <span class="project-name-tag-big">  Multifreq irrigation w. Arduino</span></a></li>
+                <li><a>Nov 2023 / Opencv / 2d Game <span class="project-name-tag-big">  Rock.Paper.Scissor</span></a></li>
+                <li><a>Feb 2024 / Shopping / Java <span class="project-name-tag-big">  Shopping console w. java</span></a></li>
+               </div>
             <%
         } else if (section.equals("skills")) {
 %>

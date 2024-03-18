@@ -141,15 +141,39 @@ body {
 
 }
 
-
 /*projects-section*/
 #projects-section{
+    top: 30%;
 
     height: 100%;
-    width: 65%;
+    width: 90%;
     color: white;
     text-align: right;
 }
+#projects-section li {
+    list-style-type: none;
+    padding: 20px;
+}
+#projects-section li span.project-name-tag-big {
+    font-size: 4rem;
+    color: white;
+    font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
+    font-weight: 100;
+
+    /* Add any other styles you want */
+}
+#projects-section li a:hover{
+    color: rgba(255, 255, 255, 0.335); /* Dim white color on hover */
+}
+#projects-section li span.project-name-tag-big:hover {
+    color: rgba(255, 255, 255, 0.335); /* Dim white color on hover */
+}
+
+
+#projects-section li a.animate-out {
+    animation: slideOut 16s forwards;
+}
+
 
 /*skills-section*/
 #skills-section{
