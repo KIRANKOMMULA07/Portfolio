@@ -177,11 +177,45 @@ body {
 
 
 #skills-section{
-    height: auto;
-    width: auto;
-    bottom: 60%;
-    background-color: lightslategrey;
+    height: 160px;
+    width: 110px;
+    bottom: 45%;
+    right: 20%;
     margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+#skills-section li{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
+    font-weight: 400;
+    transition: color 0.3s ease;
+    padding: 4px;
+    
+}
+#skills-nametag {
+    position: absolute; /* Add position absolute */
+    left: -20px; /* Adjust the position to the left */
+    top: 42%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+}
+
+#skills-nametag span {
+    font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
+    font-weight: 400;
+    color: white;
+    writing-mode: vertical-rl; /* Tilt text vertically */
+    transform: rotate(180deg); /* Rotate the text 180 degrees to make it appear upright */
+    margin-top: 5px;
+}
+#skills-section li {
+    list-style: none;
+    margin: 0;
 }
 
 

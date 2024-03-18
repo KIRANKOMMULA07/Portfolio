@@ -36,8 +36,14 @@
                 <li><a href="https://www.instagram.com/kiran_kommula.007?igsh=MTY3MDh1dzJoMG95MQ==">Instagram</a></li>
             </div>
             <div id="skills-section">
-                <p>Programming Languages: </p>
-                <p>java Python SQL Linux Github Windows Docker</p>
+                <div id="skills-nametag">
+                    <span>Skills</span>
+                </div>
+                <li>Java Python</li>
+                <li>PostgreSQL</li>
+                <li>Windows Linux</li>
+                <li>Github Docker</li>
+                <li>MS Office</li>
             </div>
 
 
