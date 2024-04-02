@@ -76,7 +76,7 @@ body {
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: 700;
-    transition: color 0.3s ease;
+    transition: color 0.1s ease;
 
     /*this is to make the text unselectable/uncopyable*/
     -webkit-user-select: none; /* Safari */
@@ -91,7 +91,7 @@ body {
 }
 
 .sidebar li a.animate-out {
-    animation: slideOut 16s forwards;
+    animation: slideOut 0s forwards;
 }
 
 @keyframes slideOut {
@@ -141,32 +141,90 @@ body {
 
 }
 
-
 /*projects-section*/
 #projects-section{
+    top: 30%;
 
     height: 100%;
-    width: 65%;
+    width: 90%;
     color: white;
     text-align: right;
 }
+#projects-section li {
+    list-style-type: none;
+    padding: 20px;
+}
+#projects-section li span.project-name-tag-big {
+    font-size: 4rem;
+    color: white;
+    font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
+    font-weight: 100;
+}
+#projects-section li a:hover{
+    color: rgba(255, 255, 255, 0.335); /* Dim white color on hover */
+}
+#projects-section li span.project-name-tag-big:hover {
+    color: rgba(255, 255, 255, 0.335); /* Dim white color on hover */
+}
+
+
+#projects-section li a.animate-out {
+    animation: slideOut 16s forwards;
+}
+
 
 /*skills-section*/
+
+
 #skills-section{
-    height: 300px;
-    width: 300px;
-    background-color: lightslategrey;
+    height: 160px;
+    width: 110px;
+    bottom: 45%;
+    right: 20%;
     margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+#skills-section li{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
+    font-weight: 400;
+    transition: color 0.3s ease;
+    padding: 4px;
+    
+}
+#skills-nametag {
+    position: absolute; /* Add position absolute */
+    left: -10px; /* Adjust the position to the left */
+    top: 42%; /* Center vertically */
+    transform: translateY(-50%); /* Center vertically */
+}
+
+#skills-nametag span {
+    font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
+    font-weight: 400;
+    color: white;
+    writing-mode: vertical-rl; /* Tilt text vertically */
+    transform: rotate(180deg); /* Rotate the text 180 degrees to make it appear upright */
+    margin-top: 5px;
+}
+#skills-section li {
+    list-style: none;
+    margin: 0;
 }
 
 
 #info-section{
-    height: 110px; /*50px*/
+    height: 90px; /*50px*/
     width: 110px;/*60px*/
-    background-color: lightslategray;
-    bottom: 40%;
-    right: 37.5%;
-    padding: 13px;
+    bottom: 30%;
+    right: 57.5%;
+    padding-top: 23px;
 }
 #info-section li a{
     color: white;
@@ -174,6 +232,7 @@ body {
     font-size: 0.85rem;
     font-weight: 700;
     transition: color 0.3s ease;
+    
 }
 #info-section li {
     list-style: none;
