@@ -15,7 +15,7 @@
                 <li><a>Jan 2024 / Portfolio / Webapp <span class="project-name-tag-big">  a Portfolio </span></a></li>
                 <li><a>Dec 2023 / Opencv / Detection <span class="project-name-tag-big">  Hand detection </span></a></li>
                 <li><a>Apr 2019 / Engineering / Project <span class="project-name-tag-big">  Multifreq irrigation w. Arduino</span></a></li>
-                <li><a>Nov 2023 / Opencv / 2d Game <span class="project-name-tag-big">  Rock.Paper.Scissor</span></a></li>
+                <li><a href="https://github.com/KIRANKOMMULA07/Project-RPS.git">Nov 2023 / Opencv / 2d Game <span class="project-name-tag-big">  Rock.Paper.Scissor </span></a></li>
                 <li><a>Feb 2024 / Shopping / Java <span class="project-name-tag-big">  Shopping console w. java</span></a></li>
                </div>
             <%
