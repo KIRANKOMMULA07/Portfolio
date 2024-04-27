@@ -6,10 +6,10 @@ body {
 
 .border-container {
     position: fixed; /* previously fixed*/
-    top: 21px; /* 1 inch from the top */
-    left: 22px; /* 1 inch from the left */
-    right: 25px; /* 1 inch from the right */
-    bottom: 25px; /* 1 inch from the bottom */
+    top: 32px; /* 1 inch from the top */
+    left: 32px; /* 1 inch from the left */
+    right: 32px; /* 1 inch from the right */
+    bottom: 32px; /* 1 inch from the bottom */
     border: 1.4px solid #999; /* Gray border */
     padding: 20px; /* Padding inside the border */
     padding-top: 11px;
@@ -56,7 +56,7 @@ body {
 
 .title h1{
     margin: 0;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: "Roboto", sans-serif; /* You can replace "Roboto" with "Montserrat" or "Open Sans" */
     font-weight: 100;
     
